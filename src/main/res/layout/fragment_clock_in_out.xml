@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.elyehgmail.ladimer.smartbusiness.Fragments.ClockInOut">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/topLinear"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your employee ID : "
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+
+        android:textSize="25sp"
+        android:textColor="#8f3e3e" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="2"
+            android:background="@drawable/border2"
+            android:text="12554"
+
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:id="@+id/enter"
+            android:textSize="30sp"
+            android:text="Enter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:id="@+id/bottomLinear"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:id="@+id/clockin"
+            android:background="@drawable/border_round"
+            android:layout_weight="1"
+            android:text="Clock In "/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:id="@+id/mealout"
+            android:background="@drawable/border_round"
+            android:layout_weight="1"
+            android:text="Meal Out"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:id="@+id/mealin"
+            android:padding="20dp"
+            android:background="@drawable/border_round"
+            android:layout_weight="1"
+            android:text= " Meal In "/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:id="@+id/clockout"
+            android:background="@drawable/border_round"
+            android:layout_weight="1"
+            android:text="Clock Out"/>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:id="@+id/message"-->
+        <!--android:textSize="25sp"-->
+        <!--android:layout_gravity="center"/>-->
+</LinearLayout>
